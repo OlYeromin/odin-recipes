@@ -1,0 +1,23 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    box-sizing: content-box;
+    border: solid yellowgreen 5px;
+    font-family: sans-serif;
+    width: fit-content;;
+}
+
+img {
+    height: 400px;
+    width: auto;
+    margin: 10px;
+}
+
+h2 {
+    font-family: "Liberation Mono", sans-serif;
+    font-style: italic;
+}
+
+p {
+    font-family: "URW Gothic", sans-serif;
+}
