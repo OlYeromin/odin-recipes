@@ -22,10 +22,14 @@ p {
     font-family: "URW Gothic", sans-serif;
 }
 
-li {
-    float: left;
-    margin: 0 20px;
+
+
+ul {
     list-style-type: none;
+}
+
+li {
+    display: inline;
 }
 
 a {
