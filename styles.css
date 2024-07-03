@@ -21,3 +21,22 @@ h2 {
 p {
     font-family: "URW Gothic", sans-serif;
 }
+
+li {
+    float: left;
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+a {
+    background-color: rgb(179 57 81);
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(79, 33, 48);
+    color: #fff;
+}
