@@ -22,13 +22,15 @@ p {
     font-family: "URW Gothic", sans-serif;
 }
 
+#hlist {
+    text-align: center;
+}
 
-
-ul {
+#hlist ul {
     list-style-type: none;
 }
 
-li {
+#hlist li {
     display: inline;
 }
 
