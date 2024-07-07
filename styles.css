@@ -1,10 +1,22 @@
-h1 {
-    margin: auto;
-    text-align: center;
+body {
+    background-color: azure;
+}
+
+.recipe-card {
+    background-color: white;
+    border: solid 3px green;
     box-sizing: content-box;
-    border: solid yellowgreen 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.recipe-card h1 {
+    margin: auto;
+    color: darkgreen;
+    text-align: center;
     font-family: sans-serif;
-    width: fit-content;;
 }
 
 img {
@@ -35,14 +47,16 @@ p {
 }
 
 a {
-    background-color: rgb(179 57 81);
+    background-color: rgb(57, 179, 79);
     color: #fff;
+    font-weight:bold;
     text-decoration: none;
     padding: 1em 2em;
     display: inline-block;
+    margin: 0.5em;
 }
 
 a:hover {
-    background-color: rgb(79, 33, 48);
+    background-color: rgb(33, 79, 35);
     color: #fff;
 }
